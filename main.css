@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    
+}
+
+
+.compare-section {
+    display: flex;
+    min-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-compare {
+    flex-basis: 40%;
+}
+
+.compare-button {
+    flex-basis: 20%;
+}
+
+.right-compare {
+    flex-basis: 40%;
+}
+
+#left-input, #right-input, #compareBtn {
+    margin-left: 25%;
+}
+
+#compareBtn {
+    padding: 5%;
+    margin-top: 75%;
+}
+
+#left-input, #right-input {
+    margin-top: 25%;
+    height: 50vh;
+    width: 50%;
+}
+
+
